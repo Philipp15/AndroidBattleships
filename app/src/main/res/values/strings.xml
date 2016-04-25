@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Battleships "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="PositionsTitle"><u>Choose your positions</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_multiplyer_menu">MultiplyerMenu</string>
+    <string name="title_activity_nfc__option">NFC_Option</string>
+    <string name="title_activity_ship_positions">ShipPositions</string>
+    <string name="title_activity_battle">BattleActivity</string>
+    <string name="Place_your_ships"><u> Place your ships</u></string>
+    <string name="You"><u> You</u></string>
+    <string name="Enemy"><u> Enemy</u></string>
+    <string name="title_activity_game_over">GameOver</string>
+    <string name="title_activity_game_over_single_player">GameOverSinglePlayer</string>
+
+</resources>

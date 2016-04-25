@@ -1,0 +1,7 @@
+<resources>
+    <item type="id" name="ShipTwoSquaresOne" />
+    <item type="id" name="ShipTwoSquaresTwo" />
+    <item type="id" name="ShipThreeSquaresOne" />
+    <item type="id" name="ShipThreeSquaresTwo" />
+    <item type="id" name="ShipFourSquaresOne" />
+</resources>

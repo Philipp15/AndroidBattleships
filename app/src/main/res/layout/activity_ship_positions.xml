@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="0dp"
+    android:paddingTop="15dp"
+        android:id="@+id/MainView"
+
+    android:orientation="horizontal"
+
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="326dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:layout_height="326dp">
+
+
+        </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/btnrotate"
+        android:scaleType="fitCenter"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="btnRotate"
+        />
+
+    <TextView
+        android:id="@+id/posShip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Place_your_ships"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:onClick="btnAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
